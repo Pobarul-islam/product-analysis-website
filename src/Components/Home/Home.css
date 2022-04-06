@@ -1,0 +1,44 @@
+/* .card-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}  */
+.heading{
+    color: green;
+}
+.heading2{
+    color: blueviolet;
+}
+.homeText{
+    color: black;
+}
+.rating-container{
+     display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 30px;
+    margin-top: 50px;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3 fr);
+
+ }
+
+.firstSection{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    margin-top: 50px;
+    height: 700px;
+}
+.i-name{
+    margin-top: 20%;
+    width: 80%;
+    
+    margin-left: 20px;
+    word-wrap:normal;
+}
+.homeImg img{
+    width: 70%;
+    height: 80%;
+    
+} 
